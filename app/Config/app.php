@@ -127,6 +127,7 @@ return [
         BookStack\App\Providers\TranslationServiceProvider::class,
         BookStack\App\Providers\ValidationRuleServiceProvider::class,
         BookStack\App\Providers\ViewTweaksServiceProvider::class,
+	BookStack\Custom\CustomSaml2ServiceProvider::class,
     ])->toArray(),
 
     // Class Aliases
